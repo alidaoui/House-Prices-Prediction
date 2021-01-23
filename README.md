@@ -25,7 +25,7 @@ The overall idea of regression is to examine whether the independent variables c
  
 Our Regression Analysis Kernel consists of 6 steps:
 
-### Step 0 (dubbed Step 0 in our house because it is a preparatory step) - Import the Libraries:
+### Step 0 (dubbed Step 0 because it is a preparatory step) - Import the Libraries:
 We use the Keras deep learning library from the TensorFlow package to perform the deep regression analysis, but we also use several other packages and modules:
 
 - **Pandas**:used for data structures and operations for manipulating numerical tables
@@ -35,10 +35,10 @@ We use the Keras deep learning library from the TensorFlow package to perform th
 - **sklearn**: used in our kernel for three purposes: to split data into training and testing sets, to import metrics such as mean squared error to assess regression analysis, and to scale the data
 
 ### Step 1 - Import the Dataset:
-We imported the data from a csv file, and we load it into a pandas DataFrame object.
+We import the data from a csv file, and we load it into a pandas DataFrame object.
 
 ### Step 2 - Visualize Data:
-In this step we check our data for null values, and we check if there is any correlation between the variables. We also explore the dataset to get a feel of it.
+We check our data for null values, and we check if there is any correlation between the variables. We also explore the dataset to get a feel of it.
 
 ### Step 3 - Create Training and Testing Set: 
 In this step we scale the data using sklearn’s MinMaxScaler, and we split our data set into a training and testing sets. We use 20% for testing the regressor:
